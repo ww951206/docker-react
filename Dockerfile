@@ -9,6 +9,3 @@ FROM nginx
 COPY --from=builder /app/build /usr/share/nginx/html
 
 
-Docker run ===	Docker crate
-                Docker start -a // a means attach
-
